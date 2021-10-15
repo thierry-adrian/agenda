@@ -1,0 +1,227 @@
+body {
+    background-color: #1a1d24;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    }
+
+/* XXXXXXXXXXXXXXXX HEADER XXXXXXXXXXXXXXXX */
+
+header {
+  height: 5%;
+  background-color: #2E323C;
+  padding-left: 4em;
+  padding-right: 4em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.log-Plateforme {
+  width: 220px;
+  height: 35px;
+  background-image: url("img/La-Plateforme.png");
+  background-size: 100%;
+  border: yellow 1px dotted;
+}
+
+header p {
+  height: 2px;
+  font-weight: 200;
+  font-size: 2.5em;
+  letter-spacing: .4em;
+  color: white;
+}
+
+
+/* XXXXXXXXXXXXXXXX MAIN XXXXXXXXXXXXXXXX */
+
+main {
+  width: 100%;
+  margin-top: 6px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*----ASIDE----*/
+
+aside {
+  width:15%;
+  background-color: #2E323C;
+}
+
+.calend {
+  width: 92%;
+  margin: 14px auto 0 auto;
+  font-size: .7em;
+  text-align: center;
+  background-color: #2E323C;
+  border-collapse: collapse;
+  border: 2px solid #4411ff;
+  border-radius: 5px;
+}
+
+.calend td {
+  padding: 8px 0 8px 0;
+}
+
+.cal-row1-hd {
+  font-size: 1.2em;
+  letter-spacing: 0.2em;
+  color: #4411ff;
+}
+
+.cal-row2-jour {
+  color: #a9a9a9;
+}
+
+.cal-row2-col2-jour, .cal-row2-col3-jour, .cal-row2-col4-jour, .cal-row2-col5-jour, .cal-row2-col6-jour {
+  border-bottom: 1px solid #4411ff;
+}
+
+.cal-row2-col4-jour {
+  font-size: 1.4em;
+  color: #4411ff;
+}
+
+.cal-row3-past, .cal-row8-futur {
+  color: #a9a9a9;
+}
+
+aside div {
+  margin: 14px auto;
+}
+
+.form {
+  weight: 100px;
+  height: 50px;
+  margin-top: 100px;
+  color: white;
+  background-color: #44ff44;
+  border: 4px soliid #88ff88;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+
+/*----TABLEAU----*/
+
+.agenda {
+  width: 84%;
+  background-color: #2E323C;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.agenda td {
+  width: 13%;
+}
+
+
+.agenda>thead {
+  background: url("img/bandeau_Rotko01_bleu.png") no-repeat center top;
+  background-size: auto;
+  font-size: .8em;
+  letter-spacing: .2em;
+}
+
+
+.row1 {
+  font-size: 1,2rem;
+  padding: 20px 0 10px 0;
+}
+
+.row2 td {
+  font-size: 2rem;
+  padding: 10px 0 12px 0;
+}
+
+.agenda>tbody td {
+  border: 2px solid #1a1d24;
+}
+
+.col1 {
+  max-width: 6%;
+  font-size: .8rem;
+  letter-spacing: .1em;
+}
+
+.row2 .col1 {
+  font-size: .8rem;
+  display: flex;
+  align-items: baseline;
+}
+
+.rond {
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  border: 2px solid #FFF;
+  border-radius: 50%;
+}
+
+.rond>p {
+  font-size: 2em;
+  font-weight: 400;
+  margin: 5px auto 10px auto;
+  padding: auto;
+}
+
+.trav_9h19h{
+  background-image: url("img/fond-travail.png");
+  text-align: start;
+  color: #1a1d24;
+  font-weight: 700;
+  font-size: 1.2em;
+  letter-spacing: .05em;
+  vertical-align: top;
+}
+
+.ECE {
+background-color: #007700;
+text-align: start;
+color: #1a1d24;
+font-weight: 700;
+font-size: 1.2em;
+letter-spacing: .05em;
+vertical-align: top;
+
+}
+
+.Chloë {
+  background-image: url("img/Chloe.png");
+  background-size: 100%;
+  text-align: start;
+  color: #1a1d24;
+  font-weight: 700;
+  font-size: 1.2em;
+  letter-spacing: .05em;
+  vertical-align: top;
+}
+
+footer {
+  height: 8%;
+  background-color: #18824;
+  display: flex;
+  align-items: center;
+
+}
+
+footer img {
+  width: 40px;
+  margin: 25px auto 25px auto;
+
+}
+
+/*
+footer p {
+  font-size: .6em;
+  letter-spacing: .2em;
+  color: white;
+  margin: 8px auto 8px auto;
+}
+*/
